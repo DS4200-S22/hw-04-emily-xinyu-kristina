@@ -3,12 +3,36 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        hw-04
+    </title>
+    <h1 class="center">
+        Event Handling
+    </h1>
 </head>
 
 
 <body>
-
-
+  <div class="shapes">
+    <div class="shape">
+      <svg class="svg1">
+        <circle id="circle1" class="circle"  onclick="circle1Clicked()"/></circle>
+        <text id="circle1-text" value="0" x=50% y=50% text-anchor="middle">0</text>
+      </svg>
+    </div>
+    <div class="shape">
+      <svg>
+       <circle id="circle2" onmouseover="mouseOver()" onmouseout="mouseOut()"> </circle>
+      </svg>
+    </div>
+    <div class="shape">
+      <svg>
+        <circle id="circle3" onclick="circle3Clicked();"> </circle>
+      </svg>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 
 </html>

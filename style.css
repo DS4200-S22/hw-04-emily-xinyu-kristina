@@ -1,0 +1,62 @@
+* {
+	font-family: Arial;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.shapes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.shape {
+	align-self: center;
+	display: inline-block;
+	padding: 5px; 
+  width: 100px;
+  height: 100px;
+}
+
+.svg1 {
+  width: 115px;
+  height: 115px;
+}
+
+
+#circle1 {
+  fill: lightblue;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  stroke: black;
+  stroke-width: 5px;
+  cx: 55px;
+  cy: 55px;
+  r: 50px;
+}
+
+#circle2 {
+  fill: pink;
+  width: 50px;
+  height: 50px;
+  cx: 55px;
+  cy: 55px;
+  r: 50px;
+  stroke-width: 5px;
+}
+
+#circle3{
+  fill: lightgray;
+  width: 50px;
+  height: 50px;
+  stroke: black;
+  stroke-width: 5px;
+  cx: 55px;
+  cy: 55px;
+  r: 50px;
+}
